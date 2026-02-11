@@ -22,7 +22,7 @@ class Cafe {
 public class main {
     public static void main(String[] args) {
         Cafe cafe1 = new Cafe("Kopi cinta kamu", "jalan kopie");
-        Cafe cafe2 = new Cafe("Kopi hitam kupu kupu", "jalan kopie hitam");
+        Cafe cafe2 = new Cafe("Kopi hitam kupu  kupu", "jalan kopie hitam");
         Cafe cafe3 = new Cafe("Kopi susu gula aren", "jalan kopie susu");
         
     //  Cafe cafe1 = new Cafe();

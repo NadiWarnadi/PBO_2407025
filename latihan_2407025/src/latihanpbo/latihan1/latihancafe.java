@@ -4,10 +4,10 @@ class Cafe {
     String nama;
     String alamat;
     
-    // Constructor yang benar (menggunakan parameter)
+    // Constructor
     Cafe(String nama, String alamat) {
-        this.nama = nama;      // Gunakan parameter, bukan string literal
-        this.alamat = alamat;  // Gunakan parameter, bukan string literal
+        this.nama = nama;     
+        this.alamat = alamat;  
         System.out.println("Constructor Cafe dipanggil");
         System.out.println("Nama Cafe: " + this.nama);
         System.out.println("Alamat Cafe: " + this.alamat);
@@ -26,7 +26,7 @@ class Cafe {
     }
 }
 
-public class latihancafe {  // Nama class harus Main (huruf besar) atau sesuai dengan nama file
+public class latihancafe {  
     public static void main(String[] args) {
         // Membuat objek cafe
         Cafe cafe1 = new Cafe("Kopi cinta kamu", "jalan kopie");
@@ -34,7 +34,7 @@ public class latihancafe {  // Nama class harus Main (huruf besar) atau sesuai d
         Cafe cafe3 = new Cafe("Kopi susu gula aren", "jalan kopie susu");
         
         System.out.println("\n=== MENGGUNAKAN METHOD ===");
-        // Menggunakan variabel untuk menghindari warning
+       
         cafe1.buka();
         cafe1.tampilkanInfo();
         
@@ -44,7 +44,7 @@ public class latihancafe {  // Nama class harus Main (huruf besar) atau sesuai d
         cafe3.buka();
         cafe3.tampilkanInfo();
         
-        // Atau cara lain dengan array dan loop
+        
         System.out.println("\n=== MENGGUNAKAN LOOP ===");
         Cafe[] semuaCafe = {cafe1, cafe2, cafe3};
         
