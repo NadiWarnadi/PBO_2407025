@@ -1,3 +1,1 @@
-public class oke {
-    
-}
+package latihanpbo.latihan2;
