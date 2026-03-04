@@ -2,7 +2,7 @@ package latihanpbo.latihan2;
 
 import java.util.Scanner;
 
-// Subclass Kubus
+
 class Kubus extends bangun_ruang {
     public Kubus(double sisi) {
         setSisi(sisi);
@@ -21,7 +21,7 @@ class Kubus extends bangun_ruang {
     }
 }
 
-// Subclass Balok
+
 class Balok extends bangun_ruang {
     public Balok(double panjang, double lebar, double tinggi) {
         setPanjang(panjang);
@@ -38,7 +38,7 @@ class Balok extends bangun_ruang {
     }
 }
 
-// Subclass Tabung
+
 class Tabung extends bangun_ruang {
     public Tabung(double jari_jari, double tinggi) {
         setJari_jari(jari_jari);
@@ -58,7 +58,7 @@ class Tabung extends bangun_ruang {
     }
 }
 
-// Subclass Bola
+
 class Bola extends bangun_ruang {
     public Bola(double jari_jari) {
         setJari_jari(jari_jari);
@@ -73,7 +73,7 @@ class Bola extends bangun_ruang {
     }
 }
 
-// Kelas utama (public)
+
 public class KalkulatorBangunRuang {
     private static Scanner scanner = new Scanner(System.in);
 

@@ -1,10 +1,10 @@
-package latihanpbo.latihan1;
+package latihanpbo.latihan1cafe;
 
 class Cafe {
     String nama;
     String alamat;
     
-    // Constructor
+   
     Cafe(String nama, String alamat) {
         this.nama = nama;     
         this.alamat = alamat;  

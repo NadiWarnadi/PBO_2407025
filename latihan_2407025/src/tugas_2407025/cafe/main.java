@@ -2,22 +2,20 @@ package tugas_2407025.cafe;
 
 import java.util.Scanner;
 
-/**
- * Class Cafe dengan enkapsulasi
- * Menyimpan nama menu dan tiga bahan
- */
+        // tugas memebuat seter dan geter 
+
 class Cafe {
     private String namaMenu;
     private String bahan1;
     private String bahan2;
     private String bahan3;
 
-    // Setter untuk nama menu
+   
     public void setNamaMenu(String namaMenu) {
         this.namaMenu = namaMenu;
     }
 
-    // Getter
+    
     public String getNamaMenu() {
         return namaMenu;
     }
@@ -33,11 +31,7 @@ class Cafe {
     public String getBahan3() {
         return bahan3;
     }
-
-    /**
-     * Method untuk menentukan resep berdasarkan nama menu
-     * Menggunakan percabangan if-else
-     */
+    // ini untik if elsif
     public void setResep() {
         if (namaMenu.equalsIgnoreCase("Mocafino")) {
             bahan1 = "1 shot espresso";

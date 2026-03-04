@@ -20,11 +20,14 @@ class Cafe {
 }
 
 public class main {
-    public static void main(String[] args) {
+     public static void Main(String[] args) {
         Cafe cafe1 = new Cafe("Kopi cinta kamu", "jalan kopie");
         Cafe cafe2 = new Cafe("Kopi hitam kupu  kupu", "jalan kopie hitam");
         Cafe cafe3 = new Cafe("Kopi susu gula aren", "jalan kopie susu");
         
+        cafe1.buka();
+        cafe2.buka();
+        cafe3.buka();
     //  Cafe cafe1 = new Cafe();
     //  Cafe cafe2 = new Cafe();
     //   Cafe cafe3 = new Cafe();
