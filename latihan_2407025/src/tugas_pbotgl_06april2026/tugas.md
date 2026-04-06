@@ -1,32 +1,31 @@
-📝 Tugas Pemrograman Berorientasi Objek (PBO)
-📂 Persiapan
-Buatlah sebuah folder baru di dalam folder Latihan PBO yang telah dibuat sebelumnya sebelum memulai pengerjaan.
-🚀 Instruksi Pengerjaan
-1. Class BangunDatar
-Buat sebuah class dengan ketentuan:
-Atribut: Memiliki panjang dan lebar.
-Enkapsulasi: Terapkan prinsip enkapsulasi (gunakan akses modifier private dan sediakan getter/setter jika diperlukan).
-Constructor: Digunakan untuk menginisialisasi nilai panjang dan lebar.
-Method: hitungLuas() untuk menghitung luas (panjang * lebar).
-2. Class BangunRuang (Inheritance)
-Buat class yang merupakan turunan dari class BangunDatar:
-Atribut: Memiliki atribut tinggi.
-Constructor: Menginisialisasi atribut dari parent class dan atribut tinggi itu sendiri.
-Method: hitungVolume() untuk menghitung volume.
-Aturan: Perhitungan volume wajib menggunakan hasil dari hitungLuas() dikalikan dengan tinggi. 
-3. Class Main (Testing)
-Buat class Main untuk melakukan pengujian dengan data berikut:
-📏 Panjang: 10
-📐 Lebar: 5
-高度 Tinggi: 4
-4. Output Program
-Program harus dapat menampilkan informasi secara jelas:
-✅ Luas Alas (Hasil dari method hitungLuas)
-✅ Volume (Hasil dari method hitungVolume)
-⚠️ Ketentuan Tambahan
-Don't Repeat Yourself (DRY): Tidak diperbolehkan mengulang kode yang sudah ada pada class lain.
-Reusability: Gunakan kembali atribut dan method yang telah tersedia pada parent class.
-OOP Best Practice: Terapkan konsep Inheritance dan Encapsulation dengan benar.
-Debugging: Perhatikan setiap proses yang terjadi, termasuk penanganan jika muncul error.
-Version Control: Commit hasil pengerjaan Anda ke repository GitHub masing-masing.
-Selamat Mengerjakan! Semangat koding! 🔥
+### TUGAS PBO
+Buat sebuah folder baru di dalam folder Latihan PBO yang telah dibuat
+sebelumnya.
+
+Selanjutnya, ikuti instruksi berikut:
+
+1.Buat sebuah class dengan nama “BangunDatar” dengan ketentuan sebagai
+berikut:
+    a.Memiliki dua atribut, yaitu panjang dan lebar
+    b.Atribut dibuat menggunakan prinsip enkapsulasi yang telah dipelajari
+    c.Memiliki constructor untuk mengisi nilai kedua atribut tersebut
+    d.Memiliki sebuah method dengan nama hitungLuas yang digunakan untuk menghitung luas yaitu panjang * lebar
+2.Buat sebuah class baru dengan nama BangunRuang, class ini merupakam
+turunan dari class BangunDatar. Class ini memiliki satu atribut yaitu
+tinggi, Memiliki satu constructor, dan memiliki sebuah method dengan
+nama hitungVolume. Perhitungan volume pada kasus ini diperoleh dari luas
+(dari class sebelumnya) * tinggi
+
+3.Buat class Main untuk melakukan pengujian dengan data berikut:
+    a.Panjang = 10
+    b.Lebar = 5
+    c.Tinggi = 4
+4.Program harus dapat menampilkan:
+    a.Luas alas (hasil dari method hitungLuas, dan
+    b.Volume (hasil dari method hitungVolume.
+5.Ketentuan Tambahan
+    a.Tidak diperbolehkan mengulang kode yang sudah dibuat pada class lain
+    b.Gunakan kembali atribut dan method yang telah tersedia
+    c.Terapkan konsep pemrograman berorientasi objek dengan baik
+    d.Selamat mencoba dan perhatikan setiap proses yang terjadi, termasuk jika muncul error.
+    e.Commit hasil pengerjaan pada repo github masing-masing
