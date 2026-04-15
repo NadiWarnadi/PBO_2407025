@@ -8,7 +8,7 @@ public class Persegi extends BangunDatar {
     // Override hitungLuas
     @Override
     public double hitungLuas() {
-        return getVarA() * getVarA(); // sisi x sisi
+        return getVarA() * getVarA(); 
     }
 
     // Override tampilkan
