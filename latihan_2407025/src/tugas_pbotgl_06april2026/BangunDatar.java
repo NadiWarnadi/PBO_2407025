@@ -11,8 +11,9 @@ public class BangunDatar {
         this.lebar = lebar;
     }
 
+
     public double hitungLuas() {
-        return panjang * lebar;
+        return panjang * lebar*2;
     }
 
 
